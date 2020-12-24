@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:text="@string/label_name"
+        android:layout_marginTop="@dimen/sp10"
+        android:layout_marginStart="@dimen/sp10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp14"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_marginStart="@dimen/sp10"
+        android:layout_marginTop="@dimen/sp10"
+        android:layout_marginEnd="@dimen/sp10"
+        android:textSize="@dimen/sp14"
+        android:id="@+id/editTextUserName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_next"
+        android:id="@+id/btnNext"
+        android:textSize="@dimen/sp12"
+        android:layout_marginStart="@dimen/sp10"
+        android:layout_marginEnd="@dimen/sp10"
+        android:layout_marginBottom="@dimen/sp10"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

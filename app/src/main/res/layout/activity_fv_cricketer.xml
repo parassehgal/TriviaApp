@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.FvCricketerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_cricket_ques"
+        android:textSize="@dimen/sp14"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="@dimen/sp10"
+        android:layout_marginEnd="@dimen/sp10"
+        android:layout_marginTop="@dimen/sp10"
+        android:id="@+id/label_cricket_ques"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/label_cricket_ques"
+        android:layout_marginTop="@dimen/sp10"
+        android:layout_marginStart="@dimen/sp10"
+        android:id="@+id/rg_input">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_1"
+            android:textColor="@android:color/black"
+            android:text="@string/label_rb_1"
+            android:textSize="@dimen/sp12"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_2"
+            android:textColor="@android:color/black"
+            android:text="@string/label_rb_2"
+            android:textSize="@dimen/sp12"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_3"
+            android:textColor="@android:color/black"
+            android:text="@string/label_rb_3"
+            android:textSize="@dimen/sp12"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_4"
+            android:textColor="@android:color/black"
+            android:text="@string/label_rb_4"
+            android:textSize="@dimen/sp12"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNext"
+        android:text="@string/btn_next"
+        android:textSize="@dimen/sp12"
+        android:layout_marginStart="@dimen/sp10"
+        android:layout_marginEnd="@dimen/sp10"
+        android:layout_marginBottom="@dimen/sp10"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

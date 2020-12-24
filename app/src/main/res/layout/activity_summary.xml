@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.SummaryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelSummary"
+        android:text="@string/label_summary"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp20"
+        android:layout_marginTop="@dimen/sp10"
+        android:layout_marginStart="@dimen/sp10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/sp15"
+        android:layout_marginStart="@dimen/sp10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_hello"
+            android:textSize="@dimen/sp14"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserName"
+            android:textStyle="bold"
+            android:text="@string/text_not_available"
+            android:textSize="@dimen/sp14"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/sp5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/sp10"
+        android:layout_marginTop="@dimen/sp10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp14"
+            android:text="@string/label_answers_sel"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sp10"
+            android:textSize="@dimen/sp14"
+            android:text="@string/text_cricket_ques"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/sp10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_answer"
+            android:textSize="@dimen/sp14"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCricketerName"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp14"
+            android:layout_marginStart="@dimen/sp5"
+            android:text="@string/text_not_available"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sp10"
+        android:text="@string/text_color_ques"
+        android:layout_marginStart="@dimen/sp10"
+        android:textSize="@dimen/sp14"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/sp10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_answers"
+            android:textSize="@dimen/sp14"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvColorName"
+            android:textSize="@dimen/sp14"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/sp5"
+            android:text="@string/text_not_available"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sp10"
+        android:layout_marginTop="@dimen/sp16"
+        android:layout_marginEnd="@dimen/sp10">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFinish"
+            android:text="@string/btn_finish"
+            android:textSize="@dimen/sp12"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btnHistory"
+            android:textSize="@dimen/sp12"
+            android:layout_marginStart="@dimen/sp10"
+            android:text="@string/btn_history"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
